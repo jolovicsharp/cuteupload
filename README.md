@@ -13,16 +13,16 @@ I will say that this is just a beta, a lot of functionality will be added after.
 
 **HOW DOES IT WORK**
 
- 5. You upload your file - you can add password and description.
- 6. After file is uploaded without any errors you will get information about uploaded file, like md5 hash of file sha1 of file, file name and **most importantly you will get CUTE CODE - code that will be used to download file you uploaded**. It will be 21 character alphanumeric string.
+ 1. You upload your file - you can add password and description.
+ 2. After file is uploaded without any errors you will get information about uploaded file, like md5 hash of file sha1 of file, file name and **most importantly you will get CUTE CODE - code that will be used to download file you uploaded**. It will be 21 character alphanumeric string.
  ![generating code for download](https://i.ibb.co/Pz3ZtL8/ss1.png)
- 7. This file for example "Capture.PNG" is now **encrypted with AES-256**. File name is **hashed**, and file is now stored in random generated folder name. All information is logged in database.
- 8. Now go back to the main page. And type CUTE CODE.
+ 3. This file for example "Capture.PNG" is now **encrypted with AES-256**. File name is **hashed**, and file is now stored in random generated folder name. All information is logged in database.
+ 4. Now go back to the main page. And type CUTE CODE.
  ![downloading file](https://i.ibb.co/fG1pqSq/ss2.png)
- 9. If file with this code exists you will see a page that looks like this.
+ 5. If file with this code exists you will see a page that looks like this.
  ![enter image description here](https://i.ibb.co/rvPycCW/ss3.png)
- 10. After you click button for download, file will be **decrypted**, file name will be **de-hashed** - than **downloaded**.
- 11. For security reasons whenever someone downloads file folder where file is located will be renamed and file will be **encrypted** again.
+ 6. After you click button for download, file will be **decrypted**, file name will be **de-hashed** - than **downloaded**.
+ 7. For security reasons whenever someone downloads file folder where file is located will be renamed and file will be **encrypted** again.
 
  **SECURITY**
  
